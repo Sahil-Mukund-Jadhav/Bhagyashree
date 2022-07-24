@@ -1,0 +1,88 @@
+-------------------------------------------------------------------------
+		API
+
+ Application Programming Interface (API) is a software interface that allows two 
+ applications to interact with each other,
+ helps two different software’s to communicate and exchange data with each other.
+
+Three types of WEB API
+
+SOAP simple object access protocol
+RPC  remote procedure call
+REST  Representational state transfer 
+
+
+Rest API is nothing but the Design Pattern for Web API
+
+==========================================================================
+API Testing 
+
+Testing of API's is called as API testing, API testing is done on the business layer
+( business logic is tested) API Testing is done without having the UI, here we only 
+the test the Business Logic that is developed by developers,which is also called as API.
+ We use Certain tools like POSTMAN for performing API testing.
+
+-------------------------------------------------------------------------
+Types in API Testing
+
+1)Functional	
+2)Integration	
+3)Regression	
+4)Security	
+5)Load	
+6)Penetration	
+7)Fuzz (Discover coding errors)
+
+-------------------------------
+
+HTTP Status Codes
+
+1** Informational
+2** Success
+3** Redirection
+4** Client Error
+5** Server Error
+
+
+200 (OK) => request successfully carried out , it gives the response body
+
+201 (created) => The request succeeded, and a new resource was created as a result. 
+This is typically the response sent after POST requests, or some PUT requests.
+
+202 (Accepted) => the request has been accepted for processing, but processing is not completed
+
+204 (no Content) => their is no content available for this request , user may update the headers
+
+
+400 (Bad Request)
+ => the server cannot process the request due to some client error ( invalid request parameter)
+
+401 ( Unauthorized)
+=> Client must authenticate himself for getting the response ( client tries to operate the protected resource without providing
+                                                               proper authorization)
+
+403 (Forbidden)
+=> User does not have necessary permission to access the resource, so server refuses to give the requested resource
+
+404 ( Not found)
+=> requested resource not found
+
+405 (Method not allowed)
+=> indiactes that client tried to use certain HTTP method which resource does not allow to do, 
+   example, an API may not allow calling DELETE to remove a resource.
+
+500 ( Internal Server Error )
+=> The server has encountered a situation it does not know how to handle.
+
+501( Not Implmented)
+=> the request method is not supported by the server and cannot be handled
+
+-------------------------------
+
+HTTP Methods
+
+GET : Read Data or fetch it.
+POST : create new thing in database
+DELETE : deleting data from database
+PATCH : Updating small part of data
+PUT : updating large part of data

@@ -1,0 +1,65 @@
+
+
+
+
+
+Test Type
+Test Execution level
+Test level
+Test design technique
+
+
+Introduction
+
+
+Java Collections
+
+difference arraylist Linklist,  hastset set, array arraylist, set list, hashmap hashtable
+
+
+
+---------
+jenkins
+API
+Selenium 13 concepts
+SQL joins
+Framework  with method overloading and overriding ( oops concept using automation framework)
+GIT
+TestNG
+Hard assert soft assert
+Pagefactory vs POM
+oops concept using automation framework
+coordinates
+
+---------------------------------------------------------------------------------------------------
+Hi my name is Sahil Mukund Jadhav, i am basically from pune,
+graduation SPPU
+i am working in  cognizant as associate QA Engineer
+i have x yrs of exp in testing , as part of my carrier i have tested web based applications
+i have done manual testing with the help of UAT, regress, smoke, sanity and was also part of walkthrough meetings
+i have done automation testing with the help of java sel testng with the data driven as framework and POM as a design pattern
+i have kmowledge on java, i have knowlwdge on OOPs concept as well as collection
+i am also awar about version control tool GIT and have a knowledge on CICD tool JENKINS
+I am also aware about API Testing using postman tool and aware about sql as well
+thanks that all about me
+
+
+explain framework => 
+our project building tool was MAVEN
+we configured all dependencies in POM.xml file
+ in our framwork we use POM as  a design pattern with data driven approach and so in which we had a testbase package in which
+we had a base class in which we initialize the driver and read the propertiers file
+then we had the page classs package in which we had seperate class for every webpage
+and so in that particular class we used page factory @FindBy annotation to retrieve the element , and we store all the webelements
+on that webpage in that class
+each page should return the object of its landing page, we also have Utils package in which we were having excel utility , 
+Listener ( itest Listner), Screenshot
+we have the seperate package for testcases and in that testcases we used assertions of TestNG
+
+
+
+
+
+
+
+ 

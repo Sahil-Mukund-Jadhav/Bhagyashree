@@ -1,0 +1,6 @@
+Docker 
+Docker is a engine, advance version of virtualization
+it has containers ( we can say it as a VM)
+
+
+Hypervisor is the tool used to create a customised VM

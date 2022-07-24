@@ -1,0 +1,10 @@
+CPIR provides the base to all products on cloud
+
+CPS tibco subscriber team
+
+TCI   IPAAS in jira
+
+CIC1 dockers swarn 
+
+CIC2 kubernates
+

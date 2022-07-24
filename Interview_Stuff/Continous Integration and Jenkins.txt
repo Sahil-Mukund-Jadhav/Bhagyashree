@@ -1,0 +1,40 @@
+
+
+Continous Integration
+
+before continous integration
+: the whole code was written and then after the code completion the whole code was tested
+   by the testers,if they found any bug in this process they would notify the dev team, 
+   the dev team need to go through the whole code for fixing that 
+  bug, hence it was time consuming, which impacted the delivery time.
+
+after implementation of Continous Integration:
+
+ here developer developes some patch of code and commits it to the some remote repo using
+ git or any version control system, and then that particular coode is being pulled by tester
+ for testing,and that patch of code ws immediately tested by tester and whatever status of 
+ testing was shared with dev team. Now if their is any bug in this process then dev team 
+ have to just check that particular commit instead of going through whole code. hence this 
+ was time efficient, also during this process feebacks can be given so quality 
+ of software would increase and it would become the desired software as per client 
+ requirements.
+
+
+JENKINS , BAMBOO, BUILDBOT, TRAVIS are Continous integration (CI) tools
+Mostly Jenkins and Bamboo are used
+
+-----------------------
+	JENKINS
+-----------------------
+
+it is a open source CI automation tool which is made using java, it connects all the tools, this is possible because it contains some
+plugins which makes this tools interact with each other
+
+different types of plugin like :
+Testing plugin
+Build notification plugin
+reports plugin
+deploy plugin
+etc
+
+we can also create our own plugins

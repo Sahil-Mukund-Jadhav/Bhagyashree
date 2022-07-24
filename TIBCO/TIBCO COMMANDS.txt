@@ -1,0 +1,4 @@
+sudo chmod 666 /var/run/docker.sock
+
+./cici2-deployment-local.sh create 2603
+

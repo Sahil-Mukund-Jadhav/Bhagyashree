@@ -1,0 +1,5 @@
+There are two types of subscription under provision subscription 
+1) Trial sub :Limited Operations
+2) Purchase Orders (POs):  Unlimited acceess 
+3) TIBCO Internal Sub: only valid for tibco email id users
+

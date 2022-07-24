@@ -1,0 +1,41 @@
+Data Driven :
+we use excel sheet for parameterization
+TC and Test Data are stored seperately
+
+
+BDD : Behavior Driven Development
+
+Feature file: written  in normal english language, test cases are written in it. written 
+with the help of  gherkin kyewords
+
+Given: precondition/ URL, Test data
+When : Actions / User
+And  : Step(we can describe the test        step using and keyword)
+Then : Results  
+
+we maintain 5/6 Testcases in a single feature file
+
+
+
+
+Step Defination File:
+
+word step defination means the definations of the steps which we have wrote in feature file 
+
+The steps which we have wrote in feature file we get the business logic or code behind it is written in step defination file.
+
+
+for n feature files we have n step defination file
+
+
+
+
+runner.java
+
+we execute those steps in this class file
+
+
+as we have annotations in testng we also have annotations in BDD that are
+
+@Before (we can mention precondition in it)
+  and @After ( driver.close())
